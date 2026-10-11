@@ -1,0 +1,17 @@
+==============================================================================
+  PRAKTIK TERPADU MINGGU 4-7 - RET503
+==============================================================================
+  NIM / Nama    : 4222411047 / Rianda Galang Samudera
+  Waktu         : 10-10-2026 19:23:45
+  Komputer/user : galang-rosmaster / rianda-galang-samudera
+  Dataset       : dataset_v1_bvd  (sidik jari label: 02E19071FB74)
+  Pengaturan    : model yolo26n, epochs 30, imgsz 416, batch 16
+==============================================================================
+  Eksperimen     Perubahan        mAP50  mAP50-95      P      R     ms   menit
+  E1_pretrained  -                0.911     0.610  0.873  0.842    2.7     1.8
+  E2_scratch     -                0.315     0.124  0.401  0.407    1.8     2.0
+  E3_tuning      imgsz=640        0.929     0.624  0.903  0.843    4.5     2.8
+==============================================================================
+  Model terpilih (mAP50-95 val tertinggi): E3_tuning
+  Hasil di data TEST (sekali saja)       : mAP50 0.927 | mAP50-95 0.593
+==============================================================================

@@ -1,0 +1,4 @@
+eksperimen,perubahan,pretrained,mAP50,mAP50-95,precision,recall,inferensi_ms,waktu_latih_menit,imgsz,bobot
+E1_pretrained,-,True,0.9114,0.6098,0.8733,0.8424,2.74,1.82,416,/home/rianda-galang-samudera/pj1-yolo/hasil_praktik/E1_pretrained/weights/best.pt
+E2_scratch,-,False,0.3154,0.1238,0.4013,0.4075,1.83,2.04,416,/home/rianda-galang-samudera/pj1-yolo/hasil_praktik/E2_scratch/weights/best.pt
+E3_tuning,imgsz=640,True,0.9287,0.6238,0.9035,0.8426,4.54,2.84,640,/home/rianda-galang-samudera/pj1-yolo/hasil_praktik/E3_tuning/weights/best.pt
